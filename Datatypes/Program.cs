@@ -11,42 +11,42 @@ namespace Datatypes
         static void Main(string[] args)
         {
             //Er is geen verschil tussen String en string
-            String EersteString = "Eerste";
-            string TweedeString = "Tweede";
-            var DerdeString = "derde";
+            String eersteString = "Eerste";
+            string tweedeString = "Tweede";
+            var derdeString = "derde";
 
-            char EersteChar = 'A';
-            var TweedeChar = 'B';
+            char eersteChar = 'A';
+            var tweedeChar = 'B';
 
-            int EersteInt = 5;
-            var TweedeInt = 6;
+            int eersteInt = 5;
+            var tweedeInt = 6;
 
             //maximale waarde van de int, int is zowel positief als negatief(signed)
-            int GroteInt = int.MaxValue;
-            Console.WriteLine(GroteInt.ToString());
+            int groteInt = int.MaxValue;
+            Console.WriteLine(groteInt.ToString());
             //maximale waarde van de unsigned int.
-            uint GrotePositieveInt = uint.MaxValue;
-            Console.WriteLine(GrotePositieveInt.ToString());
+            uint grotePositieveInt = uint.MaxValue;
+            Console.WriteLine(grotePositieveInt.ToString());
 
-            short KleinerGetal = short.MaxValue;
-            Console.WriteLine(KleinerGetal.ToString());
+            short kleinerGetal = short.MaxValue;
+            Console.WriteLine(kleinerGetal.ToString());
 
             //voor echt grote getallen kan je ook nog de ulong gebruiken(unsigned)
-            long GroterGetal = long.MaxValue;
-            Console.WriteLine(GroterGetal.ToString());
+            long groterGetal = long.MaxValue;
+            Console.WriteLine(groterGetal.ToString());
 
             //een kommagetal wil C# automatisch in een double plaatsen. Je kan een float forceren door een f achter de kommawaarde te zetten
-            float KommaGetal = 3.14f;
-            var KommaGetal2 = 3.14f;
+            float kommaGetal = 3.14f;
+            var kommaGetal2 = 3.14f;
 
             //in principe wordt bij de var van een kommagetal automatisch een double gemaakt voor 100% zekerheid plaats je een d erachter
-            double KommaGetal3 = 3.14;
-            var KommaGetal4 = 3.14d;
+            double kommaGetal3 = 3.14;
+            var kommaGetal4 = 3.14d;
 
             // een aantal manieren om een boolean te definieren
-            bool WaarOfNietWaar = true;
-            var NietWaarOfWaar = false;
-            Boolean WaarOfNiet = true;
+            bool waarOfNietWaar = true;
+            var nietWaarOfWaar = false;
+            Boolean waarOfNiet = true;
 
 
 
